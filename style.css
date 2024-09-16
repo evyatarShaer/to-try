@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(211, 242, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+    border-color: rgb(142, 179, 179);
+    background-color: rgb(233, 228, 222) ;
+    height: 360px;
+    width: 360px;
+}
+
+td {
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+#text {
+    text-align: center;
+    margin-top: 35px;
+    font-size: xx-large;
+}
+
+#xo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: xx-large;
+}
+
+#xo div {
+    border-radius: 7%;
+    height: 150px;
+    width: 100px;
+    background-color: rgb(255, 154, 154);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#o {
+    background-color: aqua;
+}
+
+#x {
+    background-color: aqua;
+}
